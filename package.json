@@ -1,6 +1,6 @@
 {
   "name": "react-ptrcontainer",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A React component providing `Pull to Refresh` a view, as well as `infinite scrolling`.",
   "main": "./lib/index.js",
   "scripts": {
