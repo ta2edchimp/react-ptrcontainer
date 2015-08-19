@@ -1,0 +1,28 @@
+{
+  "name": "react-ptrcontainer",
+  "version": "0.0.0",
+  "description": "A React component providing `Pull to Refresh` a view, as well as `infinite scrolling`.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ta2edchimp/react-ptrcontainer.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "react-component",
+    "loader",
+    "pull-to-refresh",
+    "infinite-scrolling",
+    "endless-scrolling"
+  ],
+  "author": "Andreas Windt <kontakt@andreaswindt.de> (http://andreaswindt.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ta2edchimp/react-ptrcontainer/issues"
+  },
+  "homepage": "https://github.com/ta2edchimp/react-ptrcontainer#readme"
+}
