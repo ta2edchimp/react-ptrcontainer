@@ -4,6 +4,7 @@
   "description": "A React component providing `Pull to Refresh` a view, as well as `infinite scrolling`.",
   "main": "./lib/index.js",
   "scripts": {
+    "prepublish": "make module",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +25,15 @@
   "bugs": {
     "url": "https://github.com/ta2edchimp/react-ptrcontainer/issues"
   },
-  "homepage": "https://github.com/ta2edchimp/react-ptrcontainer#readme"
+  "homepage": "https://github.com/ta2edchimp/react-ptrcontainer#readme",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-core": "^5.8.22",
+    "babel-eslint": "^4.0.10",
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.11.0"
+  },
+  "peerDependencies": {
+    "react": ">=0.13"
+  }
 }
