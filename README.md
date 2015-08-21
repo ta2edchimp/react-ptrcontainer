@@ -1,6 +1,6 @@
 # react-ptrcontainer
 
-A [React](http://facebook.github.io/react/) component providing `Pull to Refresh` a view, as well as `infinite scrolling`.
+A [React](http://facebook.github.io/react/) component for web apps, providing `Pull to Refresh` a view<sup>[iOS only](#ptrcontainer-support-for-ios-only)</sup>, as well as `infinite scrolling`<sup>[iOS & Android tested](#scrollintoviewporttrigger-support)</sup>.
 
 ## Usage
 
@@ -87,3 +87,13 @@ Name              | Type     | Description
 `className`       | string   | A `class` attribute to apply to the component's DOM node.
 `onTrigger`       | function | The function to invoke when triggered.
 `scrollContainer` | object   | Determines the scrollable element (as React component), if it is **not** the trigger component's parent.
+
+## Platform Support
+
+###### PtrContainer Support for iOS only
+
+As `PtrContainer` makes use of the iOS WebViews' native rubberband scrolling, it is currently not supporting any other platform... yet.
+
+###### ScrollIntoViewportTrigger Support
+
+`ScrollIntoViewportTrigger` has been successfully tested on iOS and Android.
