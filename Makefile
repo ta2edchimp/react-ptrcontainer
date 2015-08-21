@@ -5,3 +5,6 @@ module:
 
 browser:
 	babel-node ./node_modules/.bin/webpack --config ./webpack.config.js
+
+test:
+	babel-node ./tests/server.js
