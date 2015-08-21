@@ -97,3 +97,9 @@ As `PtrContainer` makes use of the iOS WebViews' native rubberband scrolling, it
 ###### ScrollIntoViewportTrigger Support
 
 `ScrollIntoViewportTrigger` has been successfully tested on iOS and Android.
+
+## Credits
+
+`Pull to Refresh` bases upon [`visiongeist/pull-to-refresh-js`](https://github.com/visiongeist/pull-to-refresh-js).
+
+[`hzdg/react-imageloader`](https://github.com/hzdg/react-imageloader) shamelessly used as kind of blueprint for the whole module setup, especially the tests.
