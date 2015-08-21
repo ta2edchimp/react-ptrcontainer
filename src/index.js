@@ -141,7 +141,7 @@ class PtrContainer extends Component {
 	}
 
 	getClassName () {
-		let className = `ptr-container ptr-status-${this.state.status}`;
+		let className = `ptr-container ptr-status-${this.state.ptrStatus}`;
 
     	if (this.props.className) {
     		className = `${className} ${this.props.className}`;
