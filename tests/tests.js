@@ -77,9 +77,9 @@ describe('react-ptrcontainer', () => {
 
 		assert.lengthOf(articleElements, 13, 'Expected 13 article elements within `ptr-container-content`');
 
-		console.log(React.findDOMNode(ptr), React.findDOMNode(ptr).offsetHeight, TestUtils.findRenderedDOMComponentWithClass(ptr, 'ptr-container-content').getDOMNode().offsetHeight);
-
-		TestUtils.Simulate.scroll(ptr, { deltaY: 1000 });
+		// Somehow, the rendered nodes have no dimensions ... look further into this later		
+		// const ptrNode = TestUtils.findRenderedDOMComponentWithClass(ptr, 'ptr-container').getDOMNode();
+		// TestUtils.Simulate.scroll(ptrNode, { deltaY: 1000 });
 	});
 
 });
