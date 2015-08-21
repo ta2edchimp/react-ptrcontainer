@@ -1,0 +1,24 @@
+<!DOCUMENT html>
+<html>
+	<head>
+		<title>PtrContainer - Tests</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/mocha.css" />
+		<style type="text/css">
+			.ptr-container { position: absolute; top: 0; right: 0; left: 0; height: 500px; }
+			.ptr-container-content { position: relative; height: 100%; }
+			.article { height: 50px; }
+		</style>
+	</head>
+	<body>
+		<div id="mocha"></div>
+		<script src="/mocha.js"></script>
+		<script src="/chai.js"></script>
+		<script>mocha.setup('bdd')</script>
+		<script src="/built/tests.js"></script>
+		<script>
+			mocha.run();
+		</script>
+	</body>
+</html>
