@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ta2edchimp/react-ptrcontainer.git"
+    "url": "git://github.com/ta2edchimp/react-ptrcontainer.git"
   },
   "keywords": [
     "react",
